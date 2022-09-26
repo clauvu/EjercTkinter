@@ -3,8 +3,10 @@ import tkinter.font as tkFont
 
 
 def AñadirPeliculas():
-    ListaPelic.insert(END, nombrePeli.get())
-    nombrePeli.delete(0,END)
+    if nombrePeli.get().isalpha():
+        
+        ListaPelic.insert(END, nombrePeli.get())
+        nombrePeli.delete(0,END)
 
     
 

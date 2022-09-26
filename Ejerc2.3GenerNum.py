@@ -23,9 +23,9 @@ num2.place(x=80,y=120)
 numvariable1=StringVar()
 numvariable2=StringVar()
 
-box1=Spinbox(ventana, from_=0,fg="#533483", to_= 5000, textvariable=numvariable1,borderwidth=10)
+box1=Spinbox(ventana, from_=0,fg="#533483", to_= 5000, textvariable=numvariable1,borderwidth=10,state="readonly")
 box1.place(x=270,y=50)
-box2=Spinbox(ventana, from_=0,fg="#533483", to_= 5000, textvariable=numvariable2,borderwidth=10)
+box2=Spinbox(ventana, from_=0,fg="#533483", to_= 5000, textvariable=numvariable2,borderwidth=10,state="readonly")
 box2.place(x=270,y=120)
 
 EtiqNumGener=Label(ventana, text="Numero Generado", bg="#645CAA",borderwidth=8,font="arial,12")

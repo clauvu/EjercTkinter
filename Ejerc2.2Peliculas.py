@@ -6,7 +6,7 @@ def AñadirPeliculas():
     if nombrePeli.get().isalpha():
         
         ListaPelic.insert(END, nombrePeli.get())
-        nombrePeli.delete(0,END)
+    nombrePeli.delete(0,END)
 
     
 
